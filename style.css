@@ -215,38 +215,28 @@ h2{
 
 .contact{
 
-    display:grid;
-
-    grid-template-columns:repeat(3,1fr);
-
-    gap:20px;
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
 
 }
 
 
-
-
-
 .contact a{
+
+    width:45px;
+    height:45px;
 
     display:flex;
 
-    align-items:center;
+    justify-content:center;
 
-    gap:12px;
+    align-items:center;
 
 
     background:#111827;
 
-    padding:15px;
-
-
-    border-radius:12px;
-
-
-    color:white;
-
-    text-decoration:none;
+    border-radius:50%;
 
 
     transition:0.3s;
@@ -265,13 +255,12 @@ h2{
 
 
 
-/* Contact Logo */
 
 .contact a img{
 
-    width:30px;
+    width:20px;
 
-    height:30px;
+    height:20px;
 
     object-fit:contain;
 
@@ -280,71 +269,8 @@ h2{
 
 
 
-
 .contact span{
 
-    font-size:14px;
-
-}
-
-
-
-.contact span::first-line{
-
-    font-weight:bold;
-
-}
-
-
-
-
-
-/* Footer */
-
-footer{
-
-    text-align:center;
-
-    padding:30px;
-
-    background:#111827;
-
-    color:#94a3b8;
-
-}
-
-
-
-
-
-/* Mobile Responsive */
-
-@media(max-width:700px){
-
-
-header h1{
-
-    font-size:35px;
-
-}
-
-
-
-.contact{
-
-    grid-template-columns:1fr;
-
-}
-
-
-
-.project{
-
-    flex-direction:column;
-
-    text-align:center;
-
-}
-
+    display:none;
 
 }
