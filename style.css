@@ -1,8 +1,8 @@
 *{
 
-margin:0;
-padding:0;
-box-sizing:border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 
 }
 
@@ -10,25 +10,23 @@ box-sizing:border-box;
 
 body{
 
-font-family:Arial,sans-serif;
-
-background:#020617;
-
-color:white;
-
-line-height:1.6;
+    font-family:Arial, sans-serif;
+    background:#020617;
+    color:white;
+    line-height:1.6;
 
 }
 
 
 
+
+/* Header */
+
 header{
 
-text-align:center;
-
-padding:60px 20px;
-
-background:#020617;
+    text-align:center;
+    padding:60px 20px;
+    background:#020617;
 
 }
 
@@ -36,17 +34,12 @@ background:#020617;
 
 .profile{
 
-width:90px;
-
-height:90px;
-
-border-radius:50%;
-
-object-fit:cover;
-
-border:3px solid white;
-
-margin-bottom:15px;
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid white;
+    margin-bottom:15px;
 
 }
 
@@ -54,36 +47,39 @@ margin-bottom:15px;
 
 header h1{
 
-font-size:45px;
+    font-size:45px;
 
 }
+
 
 
 header p{
 
-font-size:18px;
-
-color:#94a3b8;
+    font-size:18px;
+    color:#94a3b8;
 
 }
 
 
+
+
+
+/* Main */
 
 main{
 
-max-width:950px;
-
-margin:auto;
+    max-width:950px;
+    margin:auto;
 
 }
+
 
 
 
 section{
 
-padding:40px 20px;
-
-border-bottom:1px solid #1e293b;
+    padding:40px 20px;
+    border-bottom:1px solid #1e293b;
 
 }
 
@@ -91,39 +87,36 @@ border-bottom:1px solid #1e293b;
 
 h2{
 
-font-size:32px;
-
-margin-bottom:20px;
+    font-size:32px;
+    margin-bottom:20px;
 
 }
 
 
+
+
+
+/* Skills */
 
 .skills{
 
-display:flex;
-
-gap:20px;
-
-flex-wrap:wrap;
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
 
 }
+
 
 
 
 .card{
 
-background:#111827;
-
-padding:25px;
-
-border-radius:15px;
-
-flex:1;
-
-min-width:200px;
-
-transition:0.3s;
+    background:#111827;
+    padding:25px;
+    border-radius:15px;
+    flex:1;
+    min-width:200px;
+    transition:0.3s;
 
 }
 
@@ -131,53 +124,51 @@ transition:0.3s;
 
 .card:hover{
 
-transform:translateY(-5px);
+    transform:translateY(-5px);
 
 }
+
 
 
 
 .card img{
 
-width:45px;
-
-height:45px;
-
-object-fit:contain;
-
-margin-bottom:15px;
+    width:45px;
+    height:45px;
+    object-fit:contain;
+    margin-bottom:15px;
 
 }
 
 
 
 
+
+/* Project */
 
 .project{
 
-display:flex;
+    display:flex;
+    align-items:center;
+    gap:30px;
 
-align-items:center;
+    background:#111827;
 
-gap:30px;
+    padding:30px;
 
-background:#111827;
-
-padding:30px;
-
-border-radius:15px;
+    border-radius:15px;
 
 }
+
 
 
 
 .project img{
 
-width:90px;
+    width:90px;
+    height:90px;
 
-height:90px;
-
-object-fit:contain;
+    object-fit:contain;
 
 }
 
@@ -185,9 +176,8 @@ object-fit:contain;
 
 .project a{
 
-color:#38bdf8;
-
-text-decoration:none;
+    color:#38bdf8;
+    text-decoration:none;
 
 }
 
@@ -195,129 +185,154 @@ text-decoration:none;
 
 
 
-/* Contact Section */
+/* Contact */
+
 
 .contact{
 
-display:grid;
+    display:grid;
 
-grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(3,1fr);
 
-gap:20px;
+    gap:20px;
 
 }
+
+
 
 
 
 .contact a{
 
-display:flex;
 
-align-items:center;
+    display:flex;
 
-gap:12px;
+    align-items:center;
 
-background:#111827;
+    gap:15px;
 
-padding:12px 15px;
 
-border-radius:12px;
+    background:#111827;
 
-color:white;
+    padding:15px;
 
-text-decoration:none;
+    border-radius:12px;
 
-transition:0.3s;
+
+    color:white;
+
+    text-decoration:none;
+
+
+    transition:0.3s;
+
 
 }
+
 
 
 
 .contact a:hover{
 
-transform:translateY(-5px);
+    transform:translateY(-5px);
 
-background:#1e293b;
+    background:#1e293b;
+
+}
+
+
+
+
+
+/* Contact Logo Size */
+
+.contact a img{
+
+    width:35px;
+
+    height:35px;
+
+    max-width:35px;
+
+    max-height:35px;
+
+    object-fit:contain;
 
 }
 
 
-
-/* Contact Icons */
-
-.contact img{
-
-width:32px;
-
-height:32px;
-
-object-fit:contain;
-
-}
 
 
 
 .contact span{
 
-font-size:14px;
+    font-size:14px;
 
 }
+
+
 
 
 
 .contact span::first-line{
 
-color:white;
+    font-weight:bold;
 
-font-weight:bold;
+    color:white;
 
 }
 
 
 
+
+
+/* Footer */
 
 
 footer{
 
-text-align:center;
+    text-align:center;
 
-padding:30px;
+    padding:30px;
 
-background:#111827;
+    background:#111827;
 
-color:#94a3b8;
+    color:#94a3b8;
 
 }
 
 
 
 
-/* Mobile Responsive */
+
+/* Mobile */
 
 @media(max-width:700px){
 
 
-.contact{
+    header h1{
 
-grid-template-columns:1fr;
+        font-size:35px;
 
-}
-
-
-header h1{
-
-font-size:35px;
-
-}
+    }
 
 
-.project{
 
-flex-direction:column;
+    .contact{
 
-text-align:center;
+        grid-template-columns:1fr;
 
-}
+    }
+
+
+
+    .project{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
 
 
 }
